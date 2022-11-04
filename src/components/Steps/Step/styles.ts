@@ -7,6 +7,7 @@ export const StepContainer = styled.div`
   justify-content: center;
   gap: 1rem;
 
+  padding: 1rem;
   span {
     padding: 1.5rem;
     border-radius: 100px;
