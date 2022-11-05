@@ -4,24 +4,27 @@ import {
   AboutImage,
   ButtonsContainer,
 } from "./styles";
-import studentsImg from "../../assets/students.png";
-import logo from "../../assets/logo.jpeg";
+import yourLikeImg from "../../assets/yourlike.png";
 import { AndroidLogo, AppleLogo } from "phosphor-react";
 export function About() {
   return (
     <AboutContainer>
       <AboutImage>
-        <img src={studentsImg} alt="Estudantes reunidos" />
+        <img src={yourLikeImg} alt="Estudantes reunidos" />
       </AboutImage>
       <AboutContent>
-        <img src={logo} alt="PictureClaim" />
+        <span></span>
         <article>
-          <h1>Por que usar nossa plataforma?</h1>
+          <h3>Por aqui</h3>
+          <h1>
+            Seu like vale <strong>muito!</strong>
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-            ducimus provident commodi nam laborum explicabo. Inventore nisi,
-            neque eius recusandae reiciendis at sint, odio doloribus culpa ut
-            nobis modi. Nemo!
+            Mais que um lugar para reclamações, somos um espaço para ouvir e
+            buscar soluções. Com a gente, seu like ajudar a elencar os
+            principais problemas da sua comunidade, permite compartilhar
+            soluções e irmos ao encontro do desenvolvimento sustentável de
+            acordo com as ODS.
           </p>
         </article>
         <ButtonsContainer>

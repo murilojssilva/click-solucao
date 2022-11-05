@@ -42,6 +42,10 @@ export const GlobalStyle = createGlobalStyle`
     input, button{
         cursor: pointer;
     }
+
+    li {
+        list-style: none;
+    }
    
     p {
         font-size: 1rem;

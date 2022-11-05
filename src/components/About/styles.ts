@@ -7,7 +7,7 @@ export const AboutContainer = styled.section`
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
   width: 90%;
-  @media (max-width: 720px) {
+  @media (max-width: 1200px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -16,29 +16,40 @@ export const AboutImage = styled.div`
   justify-content: center;
   align-items: center;
   img {
-    width: 25rem;
-    height: 25rem;
+    width: 40rem;
+    height: 20rem;
   }
 `;
 export const AboutContent = styled.div`
+  width: 80%;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
   img {
     width: 10rem;
     height: 10rem;
   }
+  h3 {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+    color: ${(props) => props.theme.colors.secundary};
+    font-size: 1.5rem;
+  }
   article {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 
     h1 {
       font-size: 2rem;
       text-align: center;
+      strong {
+        font-size: 2.25rem;
+      }
     }
 
     p {
@@ -56,9 +67,9 @@ export const ButtonsContainer = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     padding: 1.5rem 2rem;
-    align-items: center;
     border: 0;
     outline: 0;
     border-radius: 6px;
