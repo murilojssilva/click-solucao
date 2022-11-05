@@ -1,18 +1,18 @@
 import {
-  AboutContainer,
-  AboutContent,
-  AboutImage,
+  ApresentationContainer,
+  ApresentationContent,
+  ApresentationImage,
   ButtonsContainer,
 } from "./styles";
 import yourLikeImg from "../../assets/yourlike.png";
 import { AndroidLogo, AppleLogo } from "phosphor-react";
-export function About() {
+export function Apresentation() {
   return (
-    <AboutContainer>
-      <AboutImage>
+    <ApresentationContainer>
+      <ApresentationImage>
         <img src={yourLikeImg} alt="Estudantes reunidos" />
-      </AboutImage>
-      <AboutContent>
+      </ApresentationImage>
+      <ApresentationContent>
         <span></span>
         <article>
           <h3>Por aqui</h3>
@@ -37,7 +37,7 @@ export function About() {
             IOS
           </button>
         </ButtonsContainer>
-      </AboutContent>
-    </AboutContainer>
+      </ApresentationContent>
+    </ApresentationContainer>
   );
 }

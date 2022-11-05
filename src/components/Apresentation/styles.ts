@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AboutContainer = styled.section`
+export const ApresentationContainer = styled.section`
   min-height: 20rem;
   padding: 1rem;
   display: grid;
@@ -11,7 +11,7 @@ export const AboutContainer = styled.section`
     grid-template-columns: 1fr;
   }
 `;
-export const AboutImage = styled.div`
+export const ApresentationImage = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ export const AboutImage = styled.div`
     height: 20rem;
   }
 `;
-export const AboutContent = styled.div`
+export const ApresentationContent = styled.div`
   width: 80%;
   display: flex;
   flex-direction: column;
