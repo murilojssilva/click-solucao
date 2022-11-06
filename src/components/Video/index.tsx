@@ -1,5 +1,5 @@
 import { VideoContainer } from "./styles";
-import video1 from "../../assets/video.mp4";
+import video1 from "../../assets/videos/video.mp4";
 
 export function Video() {
   return (

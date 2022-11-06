@@ -4,7 +4,7 @@ import {
   ApresentationImage,
   ButtonsContainer,
 } from "./styles";
-import yourLikeImg from "../../assets/yourlike.png";
+import yourLikeImg from "../../assets/images/yourlike.png";
 import { AndroidLogo, AppleLogo } from "phosphor-react";
 export function Apresentation() {
   return (
