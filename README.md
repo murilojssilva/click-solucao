@@ -1,5 +1,5 @@
 <div align="center">
- <h1>:rocket: PictureClaim</h1>
+ <h1>:rocket: ClickSolução</h1>
 </div>
 
 <div align="center">
@@ -10,7 +10,7 @@
 
 ### :link: Deploy
 
-Para acessar o deploy da aplicação na plataforma da [Vercel](https://www.vercel.app/), visite [https://picture-claim.vercel.app/](https://picture-claim.vercel.app/).
+Para acessar o deploy da aplicação na plataforma da [Vercel](https://www.vercel.app/), visite [https://click-solucao.vercel.app/](https://click-solucao.vercel.app/).
 
 ---
 
@@ -39,7 +39,7 @@ Além disso, recomendado o uso de um um editor para trabalhar com o código, com
 #### Clone do repositório
 
 ```shell
-$ git clone https://github.com/murilojssilva/picture-claim
+$ git clone https://github.com/murilojssilva/click-solucao
 ```
 
 #### Instale as dependêmcias
