@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-    <img src="./src/assets/logo.jpeg" />
+    <img src="./src/assets/images/logo.jpeg" />
 </div>
 
 <p align="center">Landing Page do projeto desenvolvido pela equipe Five no <a href="https://www.rio2030.org/rack2030">Hack2030<a/></p>
