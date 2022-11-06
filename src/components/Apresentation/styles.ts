@@ -16,8 +16,8 @@ export const ApresentationImage = styled.div`
   justify-content: center;
   align-items: center;
   img {
-    width: 40rem;
-    height: 20rem;
+    width: 30rem;
+    height: 15rem;
   }
   @media (max-width: 1200px) {
     grid-template-columns: 1fr;
