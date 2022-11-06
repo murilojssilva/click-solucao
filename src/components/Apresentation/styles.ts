@@ -19,6 +19,12 @@ export const ApresentationImage = styled.div`
     width: 40rem;
     height: 20rem;
   }
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 export const ApresentationContent = styled.div`
   width: 80%;
